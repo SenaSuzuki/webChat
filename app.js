@@ -7,6 +7,10 @@ app.get('/', function (req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
+app.get('/chat', function (req, res) {
+  res.sendFile(__dirname + '/chat.html');
+});
+
 var userName = new Array();
 
 io.on('connection', function (socket) {
