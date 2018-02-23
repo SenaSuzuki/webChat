@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodejs app.js"
   },
   "author": "",
   "license": "MIT",
